@@ -8,9 +8,4 @@
 #pragma once
 #include "raylib.h"
 
-struct Unit {
-    Vector2 pos;
-    float speed;
-};
-
 #endif //PROJECT_ALPHA_WORLD_OBJECTS_H
