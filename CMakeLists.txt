@@ -9,6 +9,8 @@ pkg_check_modules(RAYLIB REQUIRED raylib)
 
 add_executable(project_alpha
         src/main.cpp
+        src/world/world-objects.h
+        src/world/world-objects.cpp
 )
 
 target_include_directories(project_alpha PRIVATE ${RAYLIB_INCLUDE_DIRS})
