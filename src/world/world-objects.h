@@ -6,6 +6,9 @@
 #define PROJECT_ALPHA_WORLD_OBJECTS_H
 
 #pragma once
+
 #include "raylib.h"
+
+constexpr float UNIT = 1.f;
 
 #endif //PROJECT_ALPHA_WORLD_OBJECTS_H

@@ -11,6 +11,9 @@ add_executable(project_alpha
         src/main.cpp
         src/world/world-objects.h
         src/world/world-objects.cpp
+        src/entities/entity-types.h
+        src/entities/troops.cpp
+        src/entities/troops.h
 )
 
 target_include_directories(project_alpha PRIVATE ${RAYLIB_INCLUDE_DIRS})
