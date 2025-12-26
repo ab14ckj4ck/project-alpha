@@ -6,8 +6,6 @@
 #define PROJECT_ALPHA_TROOPS_H
 
 #include <raylib.h>
-#include <vector>
-#include <string>
 
 #include "entity-types.h"
 #include "../world/world-objects.h"
@@ -35,6 +33,5 @@ struct Troop {
 };
 
 Troop spawn_soldier();
-Texture2D load_gangster_sprites(); //TODO: DEBUG
 
 #endif //PROJECT_ALPHA_TROOPS_H

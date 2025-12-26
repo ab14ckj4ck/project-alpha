@@ -6,6 +6,7 @@
 #define PROJECT_ALPHA_ENTITY_TYPES_H
 
 enum class Troop_Type {
+    GANGSTER, // TODO: DEBUG
     SOLDIER,
     SNIPER,
     SPECIAL_FORCES,

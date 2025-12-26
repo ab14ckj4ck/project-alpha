@@ -4,9 +4,6 @@
 
 #include "troops.h"
 
-std::string GANGSTER_ASSET = "../assets/textures/gangster_idle.png";
-
-
 Troop spawn_soldier(const float x, const float y) {
     Troop t;
 
@@ -28,10 +25,3 @@ Troop spawn_soldier(const float x, const float y) {
     return t;
 }
 
-//TODO: DEBUG
-Texture2D load_gangster_sprites() {
-    const Texture2D gangster = LoadTexture(GANGSTER_ASSET.c_str());
-    SetTextureFilter(gangster, TEXTURE_FILTER_POINT);
-
-    return gangster;
-}
